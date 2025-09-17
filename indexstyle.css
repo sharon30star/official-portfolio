@@ -1,0 +1,96 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004466;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+}
+
+.contact-info {
+    text-align: right;
+    flex: 1;
+}
+
+main {
+    margin-top: 30px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    background-color: #d9e6f2;
+    padding: 20px;
+    border-radius: 8px;
+     margin-bottom: 10px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.programming-languages h3 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #004466;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+
+.programming-languages ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #004466;
+    color: white;
+    border-radius: 8px;
+}
+
+footer .social-links a {
+    color: #f39c12;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
